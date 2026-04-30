@@ -4,7 +4,8 @@
 // You can also set VITE_API_BASE_URL in a .env file to override.
 const BASE_URL =
   (import.meta.env.VITE_API_BASE_URL as string | undefined) ||
-  "http://localhost:8080";
+  // "http://localhost:8080";
+  "https://youtube-transcript-app-udrh.onrender.com/api/transcript";
 
 const apiClient = axios.create({
   baseURL: BASE_URL,
