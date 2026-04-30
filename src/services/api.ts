@@ -5,7 +5,7 @@
 const BASE_URL =
   (import.meta.env.VITE_API_BASE_URL as string | undefined) ||
   // "http://localhost:8080";
-  "https://youtube-transcript-app-udrh.onrender.com/api/transcript";
+  "https://youtube-transcript-app-udrh.onrender.com";
 
 const apiClient = axios.create({
   baseURL: BASE_URL,
