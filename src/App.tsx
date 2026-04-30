@@ -1,3 +1,5 @@
+import TranscriptApp from "./components/TranscriptApp";
+
 export default function App() {
-  return <div>Hello</div>;
+  return <TranscriptApp />;
 }
